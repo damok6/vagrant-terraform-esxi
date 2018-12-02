@@ -34,7 +34,7 @@ Vagrant.configure("2") do |config|
 	#sudo sh ovftool.bundle --eulas-agreed
 	# Download the new version here:
 	# https://www.vmware.com/support/developer/ovf/
-	sudo sh VMware-ovftool-4.3.0-7948156-lin.x86_64.bundle --eulas-agreed
+	sudo sh /vagrant/VMware-ovftool-4.3.0-7948156-lin.x86_64.bundle --eulas-agreed
 
 	export GOPATH="/usr/local/lib"
 	go get -u golang.org/x/crypto/ssh
